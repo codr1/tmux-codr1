@@ -1,0 +1,11 @@
+# Ignore all plugin installations - let TPM handle them
+plugins/*
+
+# Keep TPM itself in the repo
+!plugins/tpm
+!plugins/tpm/
+
+# Ignore any theme switching state files that might be generated
+*.log
+*.tmp
+
